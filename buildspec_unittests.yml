@@ -4,10 +4,9 @@ phases:
   install:
     commands:
       - npm install
-  
   build:
     commands:
-      - npx jest --ci --collectCoverage --reporters=jest-unit
+      - npx jest --ci --collectCoverage --reporters=jest-junit
 
 reports:
   unittests:
